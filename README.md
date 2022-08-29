@@ -38,6 +38,31 @@ The functions and modules are about 10x faster with no-python jit.
     Modify voc using ```voc.tongue_shape(args)``` and etc.
     See demos.py for other items that can be changed.
     
+    - Modifiable values of `Voc`  
+        - frequency  
+            The voice frequency.   
+        - tenseness  
+            The degree of voice hoarseness.  
+            Range [0 - 1]. At `0` is clear.  Higher value gets more hoarser.   
+        - `set_tract_parameters` (method)  
+            This is a method of Voc class.  
+            Following arguments can be modified.  
+            -  trachea (throat)  
+                The degree of throat opening.  
+                Closes at `0`. Maximum opening at about `3.5`.  
+            - epiglottis  
+                The diameter of it. Range[0 - 3.5].  
+            - velum  
+                The diameter of it. Range[0 - 3.5].  
+            - tongue_index   
+                The start position of tongue in the tract.   
+                You can change vowel by modifing this value.  
+                Range[about 12 - 30?40?]
+            - tongue_diameter  
+                The size of tongue. Range[0 - 3.5].
+            - lips  
+                The diameter of lips. Range[0 - 1.5].
+
 
 5. Let's generate!  
     In the following code, we will change the tongue_diameter and tenseness of the voc in update_fn to generate the voice. there are some examples in demos.py
