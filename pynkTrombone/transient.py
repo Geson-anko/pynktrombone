@@ -45,7 +45,7 @@ class TransientPool:
         Prepair invalid transients.
         """
         self.pool: list[Transient] = [Transient(i) for i in range(MAX_TRANSIENTS)]
-        fi = [*range(MAX_TRANSIENTS)]
+        fi = list(range(MAX_TRANSIENTS))
         fi.reverse()
         self.free_ids = fi
 
