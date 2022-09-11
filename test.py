@@ -2,7 +2,7 @@ import logging
 
 numba_logger = logging.getLogger('numba')
 numba_logger.setLevel(logging.DEBUG)
-from pynkTrombone.voc import Voc
+from pynktrombone.voc import Voc
 import numpy as np
 from math import sin
 import soundfile as sf

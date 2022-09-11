@@ -4,7 +4,7 @@ import pyaudio
 import time
 import numpy as np
 
-from pynkTrombone.voc import Voc
+from pynktrombone.voc import Voc
 
 starting = 0
 samplerate = 48000

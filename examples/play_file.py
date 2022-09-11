@@ -2,7 +2,7 @@ import numpy as np
 
 import sounddevice as sd
 
-from pynkTrombone.voc import Voc
+from pynktrombone.voc import Voc
 
 import hashlib
 

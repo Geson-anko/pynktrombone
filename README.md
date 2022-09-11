@@ -14,7 +14,7 @@ The functions and modules are about 10x faster with no-python jit.
 
 2. We can import Vocal organ interface (Voc) by following code. 
     ```python 
-    from pynkTrombone import Voc
+    from pynktrombone import Voc
     ```
 
 3. Construct Voc 

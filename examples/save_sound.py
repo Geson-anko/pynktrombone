@@ -3,7 +3,7 @@ from timeit import timeit
 import numpy as np
 import sounddevice as sd
 
-from pynkTrombone.voc import Voc, CHUNK
+from pynktrombone.voc import Voc, CHUNK
 
 samplerate = 48000
 

@@ -14,7 +14,7 @@
 
 2. 次のコードで発声器官(Voc)をimportします  
     ```python 
-    from pynkTrombone import Voc
+    from pynktrombone import Voc
     ```
 
 3. Vocをコンストラクトします。  

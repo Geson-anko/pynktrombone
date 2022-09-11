@@ -3,7 +3,7 @@ import unittest
 import joblib
 import numpy as np
 
-from pynkTrombone.voc import Voc, CHUNK
+from pynktrombone.voc import Voc, CHUNK
 
 
 class TestVocComputes(unittest.TestCase):
