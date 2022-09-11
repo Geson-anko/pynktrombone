@@ -1,6 +1,6 @@
 import sounddevice as sd
 
-from pynkTrombone.voc import Voc
+from pynktrombone.voc import Voc
 
 sd.default.samplerate = 48000
 

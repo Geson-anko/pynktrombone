@@ -2,7 +2,7 @@ import time
 import pastream as ps
 import numpy as np
 
-from pynkTrombone.voc import Voc, CHUNK
+from pynktrombone.voc import Voc, CHUNK
 
 # A simple tone generator
 def tone_generator(stream, buffer, loop=False):

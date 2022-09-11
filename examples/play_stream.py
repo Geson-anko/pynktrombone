@@ -2,7 +2,7 @@ import numpy as np
 
 import sounddevice as sd
 
-from pynkTrombone.voc import Voc, CHUNK
+from pynktrombone.voc import Voc, CHUNK
 
 sd.default.samplerate = 48000
 
